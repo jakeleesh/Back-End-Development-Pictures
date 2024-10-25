@@ -13,14 +13,14 @@ This is the Pictures microservice created in Flask for main Capstone application
 ## Installation
 
 Use the script to install virtual environment.
-'''bash
+```bash
 cd /Back-End-Development-Pictures
 bash ./bin/setup.sh
-'''
+```
 
 ## Usage
-'''bash
+```bash
 flask run --debugger --reload
 
 curl --request GET --url http://localhost:5000/health
-'''
+```
